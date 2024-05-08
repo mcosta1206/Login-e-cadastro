@@ -31,8 +31,8 @@ function TelaCadastroFinalizado(props){
             <StyleFooterBox>
                 <StyleDiv>
                     <StyleDivSocial>
-                    <a href="https://github.com/DanielEmidio1988" target="_blank"><img class="icon-logo-social" src={github} alt="github"/></a>
-                    <a href="https://www.linkedin.com/in/danielemidio1988/" target="_blank"><img class="icon-logo-social" src={linkedin} alt="linkedin"/></a>
+                    <a href="https://github.com/mcosta1206" target="_blank"><img class="icon-logo-social" src={github} alt="github"/></a>
+                    <a href="https://www.linkedin.com/in/marcio-costa-333826144/" target="_blank"><img class="icon-logo-social" src={linkedin} alt="linkedin"/></a>
                     </StyleDivSocial>
                 </StyleDiv>
             </StyleFooterBox>
