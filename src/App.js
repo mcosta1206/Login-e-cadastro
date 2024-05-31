@@ -17,30 +17,30 @@ function App() {
 
   const [tela, setTela] = useState(1)
 
-  const mudarTela = (valor)=> {
+  const mudarTela = (valor) => {
     setTela(valor)
   }
 
-  function renderizaTela (){
-    switch(tela){
+  function renderizaTela() {
+    switch (tela) {
       case 1:
-        return <TeladeLogin mudarTela={mudarTela}/>;
+        return <TeladeLogin mudarTela={mudarTela} />;
       case 2:
-        return <TelaCadastroDadosBasicos mudarTela={mudarTela}/>;
+        return <TelaCadastroDadosBasicos mudarTela={mudarTela} />;
       case 3:
-        return <TelaCadastroCompleto mudarTela={mudarTela}/>;
+        return <TelaCadastroCompleto mudarTela={mudarTela} />;
       case 4:
-        return <TelaCadastroFinalizado mudarTela={mudarTela}/>;
+        return <TelaCadastroFinalizado mudarTela={mudarTela} />;
       default:
-        return <TeladeLogin mudarTela={mudarTela}/>
+        return <TeladeLogin mudarTela={mudarTela} />
     }
   }
 
   return (
 
     <StyleContainer>
-    
-    {renderizaTela()}
+
+      {renderizaTela()}
     </StyleContainer>
   );
 }
